@@ -1,0 +1,128 @@
+.payment-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.method-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 675px;
+
+  background-color: #fff;
+  border-radius: 8px;
+}
+.payment-method {
+  height: 200px;
+}
+.payment-method h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+.method {
+  display: flex;
+  align-items: center;
+}
+.payment-method p {
+  margin: 20px 0;
+  font-size: 17px;
+  color: rgba(26, 31, 22, 0.7);
+}
+.payment-method .text {
+  margin-left: 10px;
+}
+.add-payment {
+  padding: 20px;
+}
+.add-payment h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.payment-form {
+  margin-top: 20px;
+}
+.payment-form label,
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  color: rgba(26, 31, 22, 0.7);
+}
+.form-control {
+  margin-bottom: 20px;
+  position: relative;
+}
+.form-control input {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 0;
+  font-size: 17px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.credit-card {
+  position: absolute;
+  top: 46px;
+  left: 8px;
+}
+.payment-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-container {
+  display: flex;
+  align-items: center;
+}
+.box-container p {
+  font-weight: 500;
+}
+.box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: aquamarine;
+  margin-right: 5px;
+}
+.payment-button {
+  display: block;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border: 0;
+  padding: 15px 0;
+  margin: 15px 0;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #1a1f16;
+  color: #fff;
+}
+.payment-button p {
+  margin-left: 10px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back-btn {
+  display: flex;
+  align-items: center;
+}
+.secure-connention {
+  display: flex;
+  align-items: center;
+  color: #02d693;
+}
+@media only screen and (max-width: 768px) {
+  .payment-method {
+    width: 100%;
+  }
+  .add-payment {
+    width: 100%;
+  }
+}
