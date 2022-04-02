@@ -1,9 +1,9 @@
 .link {
   display: block;
   text-decoration: none;
-  font-size: 17px;
-  margin-right: 10px;
-  font-weight: 300;
+  font-size: 18px;
+  margin: 0 10px;
+  font-weight: 400;
   position: relative;
 }
 /* .link::after {
@@ -19,3 +19,8 @@
 .link:hover {
   width: 20%;
 } */
+@media only screen and (max-width: 576px) {
+  .link {
+    padding-bottom: 10px;
+  }
+}
