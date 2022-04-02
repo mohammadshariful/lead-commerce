@@ -1,0 +1,21 @@
+.link {
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 10px;
+  font-weight: 300;
+  position: relative;
+}
+/* .link::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  margin: 0 auto;
+  transition: 0.3s linear;
+}
+
+.link:hover {
+  width: 20%;
+} */

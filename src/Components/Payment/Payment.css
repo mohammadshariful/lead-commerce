@@ -1,7 +1,7 @@
 .payment-container {
   width: 90%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .method-container {
   margin: 20px auto;
@@ -119,6 +119,9 @@ input {
   color: #02d693;
 }
 @media only screen and (max-width: 768px) {
+  .payment-container {
+    padding: 20px 0;
+  }
   .payment-method {
     width: 100%;
   }

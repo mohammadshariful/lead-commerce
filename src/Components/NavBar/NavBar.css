@@ -1,0 +1,31 @@
+.nav-container {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 130px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.logo {
+  font-size: 30px;
+}
+.logo span {
+  font-size: 40px;
+  color: #02d693;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .logo {
+    font-size: 20px;
+  }
+}
