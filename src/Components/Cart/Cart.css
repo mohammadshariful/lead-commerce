@@ -5,3 +5,9 @@
 .cart ul {
   margin: 20px 0;
 }
+.notify {
+  margin-top: 10px;
+  text-align: center;
+  color: red;
+  font-size: 17px;
+}

@@ -4,7 +4,7 @@ import "./Product.css";
 const Product = ({ product, handlerClick }) => {
   const { phone_name, brand, image } = product;
   return (
-    <div className="product-container">
+    <div className="product-container" data-aos="fade-up">
       <img src={image} alt="" />
       <div className="product-info">
         <p className="product-name">{phone_name}</p>
