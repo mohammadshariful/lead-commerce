@@ -1,0 +1,18 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.list-img {
+  background-color: #e5e5e5;
+  padding: 5px;
+  border-radius: 50%;
+}
+.list-img img {
+  width: 30px;
+  height: 27px;
+  object-fit: cover;
+  border-radius: 50%;
+}

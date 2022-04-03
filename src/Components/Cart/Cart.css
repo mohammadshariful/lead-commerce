@@ -1,0 +1,7 @@
+.cart h2 {
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+.cart ul {
+  margin: 20px 0;
+}

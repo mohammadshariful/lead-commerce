@@ -118,7 +118,7 @@ input {
   align-items: center;
   color: #02d693;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .payment-container {
     padding: 20px 0;
   }

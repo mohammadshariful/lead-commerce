@@ -1,7 +1,8 @@
 .nav-container {
   width: 100%;
   height: 80px;
-  background-color: #fff;
+  background-color: #000;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,7 +60,7 @@
     flex-direction: column;
     padding: 20px;
     position: absolute;
-    background-color: antiquewhite;
+    background-color: #000;
     width: 100%;
     transition: 0.5s linear;
   }
