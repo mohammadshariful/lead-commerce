@@ -1,15 +1,18 @@
 import React, { useState } from "react";
+import { addToDb, deleteProduct } from "../../utilities/fakeDB";
 import Cart from "../Cart/Cart";
 import MyContext from "../ContextApi/ContextApi";
+import useCart from "../Hook/useCart";
 import useProduct from "../Hook/useProduct";
 import Product from "../Product/Product";
 import "./DashBoard.css";
 const DashBoard = () => {
   const [text, setText] = useState("phone");
-  const [cart, setCart] = useState([]);
   const [products] = useProduct(text);
+  const [cart, setCart] = useCart(products);
 
   const handlerClick = (selectedProduct) => {
+    addToDb(selectedProduct.slug);
     const exits = cart.find((pd) => pd.slug === selectedProduct.slug);
     if (!exits) {
       const newProduct = [...cart, selectedProduct];
@@ -20,6 +23,7 @@ const DashBoard = () => {
   const deleteItems = (item) => {
     const rest = cart.filter((pd) => pd.slug !== item.slug);
     setCart(rest);
+    deleteProduct(item.slug);
   };
 
   return (
